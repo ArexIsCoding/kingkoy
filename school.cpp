@@ -1,0 +1,15 @@
+string name;
+double q1,q2,q3,q4;
+double fGrade = 0;
+cout<<"Enter the name of Student: ";
+cin>>name;
+cout<<"\n\nQuarter 1: ";
+cin>>q1;
+cout<<"Quarter 2: ";
+cin>>q2;
+cout<<"Quarter 3: ";
+cin>>q3;
+cout<<"Quarter 4: ";
+cin>>q4;
+fGrade= (q1+q2+q3+q4)/4;
+cout<<"\n\nHi "<<name<<"! Your final grade is: "<<fGrade;
